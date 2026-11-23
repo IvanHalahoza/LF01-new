@@ -54,7 +54,7 @@ public class Temperaturauswertungen {
             System.out.println("Minimale Temperatur\t:" + df.format(minTemperatur));
             System.out.println("Spannweite\t\t\t:" + (df.format(maxTemperatur - minTemperatur)));
             System.out.println("Maximale Differenz\t:" + df.format(maxDifferenz));
-            System.out.println("Wollen Sie weiter berechnen? [j] [n] :");
+            System.out.println("Wollen Sie weiter berechnen? [j] [n] ");
             String angabe = br.readLine();
             if (angabe.equals("j") || angabe.equals("ja")) {
                 weiter = true;
